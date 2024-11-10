@@ -1,0 +1,116 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .cards{
+            background-color: gray;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;
+            align-items: center;
+            text-align: center;
+            min-height: 100vh;
+        }
+        .card{
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            border-radius: 20px 20px 0 0;
+            overflow: hidden;
+            
+            
+            
+        }
+        .card>
+        h2{
+            
+            color: white;
+            padding: 15px;
+            
+            
+        }
+        .container-info-card{
+            padding: 0 80px 50px 80px;
+            line-height: 40px;
+            
+        }
+        .price-service{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            line-height: 50px;
+            
+            
+        }
+        .price-service>div{
+            background-image: linear-gradient(to right,rgb(49, 190, 171),rgb(15, 87, 159));
+            color: transparent;
+            background-clip: text;
+            
+        }
+        
+     
+        .price-service>div:nth-child(2){
+            margin-top: 10px;
+            font-size: 2rem;
+            
+        }
+        .price-service>div:last-child{
+            align-items: start;
+            margin-top: 20px;
+            
+            
+        }
+        button{
+            margin-top: 20px;
+            padding: 10px 50px;
+            border-radius: 20px ;
+            color: white;
+        }
+        .button1{
+           
+            background-image: linear-gradient(to right,rgb(49, 190, 171),rgb(15, 87, 159));
+        }
+        .button2{
+            
+            background-image: linear-gradient(to right ,rgb(24, 219, 112),rgb(98, 84, 207),rgb(125, 20, 181));
+
+        }
+        .button3{
+            background-image: linear-gradient(to right ,rgb(74, 89, 151),rgb(132, 31, 215),rgb(10, 164, 113));
+
+        }
+        p:not(.p1,.h1,.p2,.h2,.p3,.h3){
+            color: gray;
+        }
+        .p2,.h2{
+            background-image: linear-gradient(to right ,rgb(24, 219, 112),rgb(98, 84, 207),rgb(125, 20, 181));
+            color: transparent;
+            background-clip: text;
+        }
+        .p3,.h3{
+            background-image: linear-gradient(to right ,rgb(74, 89, 151),rgb(132, 31, 215),rgb(10, 164, 113));
+           color: transparent;
+           background-clip: text;
+
+        }
+        .h21{
+            background-image: linear-gradient(to right,rgb(49, 190, 171),rgb(15, 87, 159));
+        }
+        .h23{
+            background-image: linear-gradient(to right ,rgb(74, 89, 151),rgb(132, 31, 215),rgb(10, 164, 113));
+        }
+        .h22{
+            background-image: linear-gradient(to right ,rgb(24, 219, 112),rgb(98, 84, 207),rgb(125, 20, 181));
+
+        }
+       
+        
+ 

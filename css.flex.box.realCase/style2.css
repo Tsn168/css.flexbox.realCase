@@ -1,0 +1,157 @@
+
+/* if we want to search bar become longer of if width use width: 45vw in input part */
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+:root{
+   --FONT-FAMILY:sans-serif;
+   --GAP:20px;
+   --FONT-SIZE:1.5rem;
+   --ICON-PADDING:5px;
+   
+}
+body{
+   font-family: var(--FONT-FAMILY);
+   color: white;
+   background-color: white;
+   
+   
+  
+}
+header{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin: 10px 50px;
+}
+header > div:nth-of-type(1),
+header > div:nth-of-type(2),
+header > div:nth-of-type(3) {
+       display: flex;
+       flex-direction: row;
+       gap: var(--GAP);
+       white-space: nowrap;
+       align-items: center;
+   }
+div>i{
+   font-size: var(--FONT-SIZE);
+   padding-top: var(--ICON-PADDING);
+}
+header>div:first-child>i:nth-child(2){
+   color: red;
+}
+header>div:nth-child(2){
+   
+   border-radius: 100px;
+   padding: 0 10px;
+   
+
+   
+}
+header>div:nth-child(2)>div{
+  
+  border: 1px solid rgb(40, 37, 37);
+  border-radius: 100px;
+  padding: 0 20px 0 0;
+  
+
+  
+}
+   
+input {
+
+   width: 45vw;
+
+   border: solid rgb(40, 37, 37) 1px;
+   border-top-left-radius: 100px;
+   border-bottom-left-radius: 100px;
+   padding: 5px 20px;
+   color: white;
+   height: 45px;
+
+}
+.search>form>i{
+   padding: 0 10px;
+   
+
+}
+i{
+   color: black;
+}
+
+
+
+
+header>div:last-child{
+   align-items: center;
+}
+
+
+.profile-img{
+   width: 25px;
+}
+.profile-img>img{
+   width: 100%;
+   border-radius: 50%;
+}
+/* main area */
+main>div{
+   margin: 10px 50px;
+}
+aside{
+   margin: 20px 0;
+
+}
+ul{
+
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+
+}
+li{
+   list-style: none;
+}
+li>button{
+   padding: 10px;
+}
+.Videos{
+  
+   background-color: whitesmoke;
+   display: flex;
+   flex-direction: row;
+   height: auto;
+   padding: 10px 0;
+   gap: 10px;
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+.Video{
+   min-width: 250px;
+   
+   background-color: white;
+   border-radius: 10px;
+  
+}
+.Video-info{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 20px 20px;
+
+}
+.Video>img{
+   width: auto;
+   border: 1px solid white;
+   border-radius: 10px 10px 0 0;
+}
+.Video-info{
+   gap: 20px;
+}
+.Video-info>img{
+   max-width: 50px;
+   border-radius: 50%;
+}
+
